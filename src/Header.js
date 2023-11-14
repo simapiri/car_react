@@ -9,8 +9,6 @@ import {
 const Header = () => {
   const route = useLocation();
 
-  console.log(route);
-
   return (
     <div className="bg-black flex justify-around p-5 ">
       <div className="text-gray-100 hover:text-purple-400">
@@ -39,7 +37,6 @@ const Header = () => {
         <Link to="/person" className="header_menu_item">
           Person
         </Link>
-        
       </div>
       <div>
         <img className="icon" src="/logo192.png" />
